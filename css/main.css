@@ -35,31 +35,71 @@ main {
 main > #movie {
   height: 100vh;
   background: #ccc;
+  overflow: hidden;
 }
 main > #movie > video {
   width: 100%;
 }
-main > #top3 {
+main > #movie .m_info {
+  position: absolute;
+  width: 100%;
+  top: 46%;
+  z-index: 100;
+  text-align: center;
+  color: #fff;
+}
+main > #movie .m_info > h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main > #movie .m_info > p {
+  line-height: 80px;
+  font-size: 16px;
+}
+main > #movie .m_info > a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+  margin: 0px 20px;
+  padding: 5px 10px;
+}
+main > #movie .m_info a:first-of-type {
+  background: #006EFF;
+}
+main > #movie > #next_btn {
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main > #movie > #top3 {
   height: 1146px;
   background: springgreen;
 }
-main > #intro {
+main > #movie > #intro {
   height: 923px;
   background-color: crimson;
 }
-main > #test_drive {
+main > #movie > #test_drive {
   height: 923px;
   background-color: slateblue;
 }
-main > #event {
+main > #movie > #event {
   height: 923px;
   background-color: goldenrod;
 }
-main > #buy {
+main > #movie > #buy {
   height: 923px;
   background-color: hotpink;
 }
-main > #customer {
+main > #movie > #customer {
   height: 923px;
   background-color: green;
+}
+
+#top3, #intro, #test_drive, #event, #buy {
+  margin: 80px 0px;
 }/*# sourceMappingURL=main.css.map */
