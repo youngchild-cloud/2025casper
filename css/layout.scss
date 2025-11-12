@@ -1,5 +1,5 @@
 // layout.scss 레이아웃
-@import './common';
+@use './common' as *;
 
 
 // body, html{scroll-behavior: smooth;} 너무기초 난몰랐는데
