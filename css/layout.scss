@@ -23,8 +23,8 @@ header{
     top:24px;right:10px;
     width:40px;
   }
-  > .nav_icon span:last-child{display:none;}
-  >span.fas{
+  > .nav_icon > span:last-child{display:none;}
+  > .nav_icon span.fas{
     font-size:$t_size_t1;
     color:$txt_color2;
     cursor:pointer;

@@ -17,7 +17,7 @@ main{
       position:absolute;
       width:100%;
       top:46%;
-      z-index:100;
+      text-indent: -9999;
       text-align:center;
       color:$txt_color2;
 
@@ -54,7 +54,7 @@ main{
 #next_btn{
   // 글자 숨기기
   display:inline-block;
-  text-indent:-9999px;
+  font-size: 0px;
   position:absolute;
   bottom:40px; left:50%;
   transform:translate(-50%,-50%);
